@@ -1,6 +1,22 @@
 import 'package:intl/intl.dart';
 
 extension EpochConvertion on int {
+  String epochTodate() {
+    int intdate = this * 1000;
+    DateTime date = DateTime.fromMillisecondsSinceEpoch(intdate);
+    String dateString = DateFormat("y-MM-dd").format(date);
+    return dateString;
+  }
+
+  String epochToDateAndTime() {
+    int intdate = this * 1000;
+    DateTime date = DateTime.fromMillisecondsSinceEpoch(intdate);
+    String time = DateFormat("h:m a").format(date);
+    String dateString = DateFormat("y-MM-dd").format(date);
+
+    return "$dateString-$time";
+  }
+
   DateTime epochToDate() {
     int intdate = this * 1000;
     DateTime date = DateTime.fromMillisecondsSinceEpoch(intdate);

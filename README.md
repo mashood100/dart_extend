@@ -11,9 +11,6 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
-
 ## Features
 
 
@@ -29,7 +26,7 @@ How To Use:
 final email = 'mashoodhussain100@gmail.com'.isemail(); // true
 final email = "mashood100".isemail(); // false
 
- "1223ee2".isNum; //false
+    "1223ee2".isNum; //false
     bool isDouble = "122".isNum; // true
 ```
 
@@ -78,6 +75,4 @@ From DateTime
 
 ## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+For more info or contribution visit https://github.com/mashood100/dart_extend
