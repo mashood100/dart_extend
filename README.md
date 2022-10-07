@@ -55,6 +55,13 @@ From DateTime
    final week = DateTime.now().weekOftheYearFromDate(); // return current week number of the year eg: 12
 
    final week = DateTime(2011, 1, 15).weekOftheYearFromDate(); // 2 
+   
+   final week = 98.minToDuration();
+```
+
+```dart
+    final week = 112398.minToDuration(); / weeks
+   final week = 98.minToDuration(); // 1.6 hr
 ```
 
 ## Additional information
