@@ -55,7 +55,6 @@ From Epoch
 ```dart
    final test1 = 1665102617.epochToDate(); // return DateTime  like  2022-10-07 05:41:03.162
    final time = 1665102617.epochToTime();// 5:30 AM 
-final week = DateTime.now().weekOftheYearFromDate();
 ```
 From DateTime
 ```dart
