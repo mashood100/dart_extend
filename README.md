@@ -23,13 +23,38 @@ TODO: List what your package can do. Maybe include images, gifs, or videos.
 TODO: List prerequisites and provide or point to information on how to
 start using the package.
 
-## Usage
+## Validators
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
 
 ```dart
-const like = 'sample';
+final email = 'mashoodhussain100@gmail.com'.isemail; // true
+final email = 'mashood100".isemail'; // false
+```
+
+
+to `/example` folder.
+
+## Formatters
+
+
+```dart
+  final test = 44.ordinal(); // 44th
+   final test2 = 1.ordinal();// 1st
+```
+
+## Conversations
+
+From Epoch
+```dart
+   final test1 = 1665102617.epochToDate(); // return DateTime  like  2022-10-07 05:41:03.162
+   final time = 1665102617.epochToTime();// 5:30 AM 
+final week = DateTime.now().weekOftheYearFromDate();
+```
+From DateTime
+```dart
+   final week = DateTime.now().weekOftheYearFromDate(); // return current week number of the year eg: 12
+
+   final week = DateTime(2011, 1, 15).weekOftheYearFromDate(); // 2 
 ```
 
 ## Additional information
