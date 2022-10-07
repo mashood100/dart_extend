@@ -27,12 +27,19 @@ start using the package.
 
 
 ```dart
-final email = 'mashoodhussain100@gmail.com'.isemail; // true
-final email = 'mashood100".isemail'; // false
+final email = 'mashoodhussain100@gmail.com'.isemail(); // true
+final email = "mashood100".isemail(); // false
+
+ "1223ee2".isNum; //false
+    bool isDouble = "122".isNum; // true
 ```
 
+check is string value is number or not
+```dart
 
-to `/example` folder.
+ "1223ee2".isNum; //false
+ "122".isNum; // true
+```
 
 ## Formatters
 
