@@ -40,9 +40,7 @@ to `/example` folder.
 ```dart
    final test1 = 44.ordinal(); // 44th
    final test2 = 1.ordinal();// 1st
-    List myArray = ['x', 'w', 'x', 'y', 'o', 'x', 'y', 'y', 'r', 'a'];
 
-    List unique = myArray.removeduplicates();
 ```
 Remove Duplicates from List
 ```dart
