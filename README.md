@@ -38,7 +38,7 @@ to `/example` folder.
 
 
 ```dart
-  final test = 44.ordinal(); // 44th
+  final test1 = 44.ordinal(); // 44th
    final test2 = 1.ordinal();// 1st
 ```
 
@@ -52,15 +52,15 @@ final week = DateTime.now().weekOftheYearFromDate();
 ```
 From DateTime
 ```dart
-   final week = DateTime.now().weekOftheYearFromDate(); // return current week number of the year eg: 12
+   final date1 = DateTime.now().weekOftheYearFromDate(); // return current week number of the year eg: 12
 
-   final week = DateTime(2011, 1, 15).weekOftheYearFromDate(); // 2 
+   final date2 = DateTime(2011, 1, 15).weekOftheYearFromDate(); // 2 
    
-   final week = 98.minToDuration();
+   
 ```
 
 ```dart
-    final week = 112398.minToDuration(); / weeks
+   final week = 112398.minToDuration(); // weeks
    final week = 98.minToDuration(); // 1.6 hr
 ```
 
