@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 <!--
 This README describes the package. If you publish this package to pub.dev,
 this README's contents appear on the landing page for your package.
@@ -83,4 +81,3 @@ From DateTime
 TODO: Tell users more about the package: where to find more information, how to
 contribute to the package, how to file issues, what response they can expect
 from the package authors, and more.
->>>>>>> 47de99f25cd9fd94d70c6f2ff1dd93fd8e50a811
