@@ -4,7 +4,7 @@ extension CommasInNumber on num? {
   String commasInNumber() {
     if (this == null) return "N/A";
     int roundedValue = this!.floor();
-    ;
+
     String result =
         _beforePoint(roundedValue) + "." + _afterPoint(roundedValue);
 
