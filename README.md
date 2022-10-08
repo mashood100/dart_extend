@@ -13,9 +13,37 @@ and the Flutter guide for
 
 ## Features
 
-## Getting started
+### use the following dart method directly in your code and speed up your app development
 
-How To Use:
+Validators
+
+```dart
+ .isNull //return bool check if the given value is null or not
+ .isemail(); // return bool
+ .isNum; //return bool check if the given string is numeric type or not
+```
+
+Formatters
+
+```dart
+.removeduplicates(); // remove duplicates from your list
+ .ordinal();; // convert number into ordered form e.g 1st 2nd 55th 22th
+ .isNum; //return bool check if the given string is numeric type or not
+```
+
+converter
+
+From Epoch
+
+```dart
+    1665102617.epochToDate(); // return DateTime  like  2022-10-07 05:41:03.162
+    1665102617.epochToTime();// 5:30 AM
+   final date2 = DateTime(2011, 1, 15).weekOftheYearFromDate(); // 2nd week
+
+   98.minToDuration(); // 1.6 hr
+```
+
+## Getting started
 
 ## Validators
 
@@ -89,6 +117,9 @@ From DateTime
     String timeagoInString = 1665192814.timeAgoSinceEpochDate(dateInNumbers: false); // return 12 days ago
 
 ```
+
+![Screenshot](images/ss1.png)
+![Screenshot2](images/ss2.png)
 
 ## Additional information
 
