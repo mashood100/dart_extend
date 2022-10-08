@@ -27,6 +27,6 @@ extension NumberParsing on int {
 
 extension RemoveDuplicateFromList on List {
   List removeduplicates() {
-    return this.toSet().toList();
+    return toSet().toList();
   }
 }

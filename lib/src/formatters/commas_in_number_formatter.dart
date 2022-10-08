@@ -6,7 +6,7 @@ extension CommasInNumber on num? {
     int roundedValue = this!.floor();
 
     String result =
-        _beforePoint(roundedValue) + "." + _afterPoint(roundedValue);
+        "${_beforePoint(roundedValue)}.${_afterPoint(roundedValue)}";
 
     return result;
   }

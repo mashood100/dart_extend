@@ -13,14 +13,11 @@ and the Flutter guide for
 
 ## Features
 
-
-
 ## Getting started
 
 How To Use:
 
 ## Validators
-
 
 ```dart
 final email = 'mashoodhussain100@gmail.com'.isemail(); // true
@@ -31,6 +28,7 @@ final email = "mashood100".isemail(); // false
 ```
 
 check is string value is number or not
+
 ```dart
 
  "1223ee2".isNum; //false
@@ -39,13 +37,14 @@ check is string value is number or not
 
 ## Formatters
 
-
 ```dart
    final test1 = 44.ordinal(); // 44th
    final test2 = 1.ordinal();// 1st
 
 ```
+
 Remove Duplicates from List
+
 ```dart
 
     List myArray = ['x', 'w', 'x', 'y', 'o', 'x', 'y', 'y', 'r', 'a'];
@@ -55,22 +54,40 @@ Remove Duplicates from List
 ## Conversations
 
 From Epoch
+
 ```dart
    final test1 = 1665102617.epochToDate(); // return DateTime  like  2022-10-07 05:41:03.162
-   final time = 1665102617.epochToTime();// 5:30 AM 
+   final time = 1665102617.epochToTime();// 5:30 AM
 ```
+
 From DateTime
+
 ```dart
    final date1 = DateTime.now().weekOftheYearFromDate(); // return current week number of the year eg: 12
 
-   final date2 = DateTime(2011, 1, 15).weekOftheYearFromDate(); // 2 
-   
-   
+   final date2 = DateTime(2011, 1, 15).weekOftheYearFromDate(); // 2
+
+
 ```
 
 ```dart
    final week = 112398.minToDuration(); // weeks
    final week = 98.minToDuration(); // 1.6 hr
+```
+
+## Time Ago Stamps
+
+From Epoch
+
+```dart
+       String myTimeago = DateTime.now().timeAgoSinceDateTime(dateInNumbers: true); // just now
+```
+
+From DateTime
+
+```dart
+    String timeagoInString = 1665192814.timeAgoSinceEpochDate(dateInNumbers: false); // return 12 days ago
+
 ```
 
 ## Additional information
