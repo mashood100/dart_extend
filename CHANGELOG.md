@@ -1,3 +1,7 @@
+## [0.0.4] - 10/14/2022
+
+- `Add new Generator class` Genrator class with many new methods
+
 ## [0.0.3] - 10/08/2022
 
 - `isNull` return bool check if the given value is null or not

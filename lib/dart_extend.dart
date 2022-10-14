@@ -6,3 +6,4 @@ export 'src/formatters/formater.dart';
 export 'src/validators/validators.dart';
 export 'src/formatters/commas_in_number_formatter.dart';
 export 'src/time ago/time_ago.dart';
+export 'src/genrators/genrator.dart';

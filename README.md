@@ -118,6 +118,76 @@ From DateTime
 
 ```
 
+Generate unique user names
+
+```dart
+
+  var generate = Generator();
+
+  print(generate.randomUserName());
+
+  // barley_harryy_1
+  // set addspcae parameter false so it will generate username without spaces( _ )
+  // by default its true
+  print(generate.randomUserName(addSpace: false));
+  // barleyharryy1
+  print(generate.makeUserName('mashood'));
+  // mashood_82
+
+  print(generate.makeUserName('Mashood Hussain'));
+  // mashood_Hussain_23
+  print(generate.makeUserName('Mashood Hussain'));
+  // mashoodHussain23
+// set with number false to make usernames with number
+  print(generate.makeUserName('John Doe', withNumber: false));
+// mashood_Hussain
+
+// you can also set prefix and sufffix so it will apperes on every username that you generates
+  print(generate.makeUserName('Mashood Hussain',
+      withNumber: false, prefix: 'developer', suffix: 'fultter'));
+  // developer_mashood_hussain_flutter
+
+  print(generate.makeUserName('mashoodh@example.com',
+      date: DateTime.parse('2001-06-20')));
+  // mashood_01
+
+  print(
+    generate.usernameFromName(
+        firstName: 'mashood',
+        lastName: 'hussain',
+        adjectives: ['ready', 'happy']),
+  );
+  // doe_john_10_ready
+
+  print(
+    generate.usernameFromName(firstName: 'John', lastName: 'Doe'),
+  );
+  // doe_john_10
+//set isadjectives true to get a username with adjective word
+  print(
+    generate.listOfUserName('Mashood Hussain', length: 4, isadjectives: true),
+  );
+
+  // [
+  // 4_mashood_awsome,
+  // 20_hussain_great,
+  // 7_mashood_fast,
+  // hussain_mashood_99
+  // ]
+
+// by default isadjectives is false
+  print(
+    generate.listOfUserName('Mashood Hussain', length: 4),
+  );
+
+  // [
+  // 4_mashood,
+  // 20_hussain,
+  // 7_mashood,
+  // hussain_mashood_99
+  // ]
+```
+
 ![Screenshot](images/ss1.png)
 ![Screenshot2](images/ss2.png)
 
