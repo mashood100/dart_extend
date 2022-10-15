@@ -11,7 +11,9 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
 
-
+![Dart](https://img.shields.io/badge/Dart-2.18.2-black?labelColor=blue&style=flat)
+![license](https://img.shields.io/badge/license-MIT-orange?labelColor=black&style=flat) 
+![pub](https://img.shields.io/badge/pub-1.0.1-green?labelColor=blue&style=flat)
 # About :closed_book:
 
 #### Dart Extend provides a variety of dart methods and classes so you can write better and clean app functionality
@@ -185,6 +187,6 @@ Generate unique user names
 ```
 
 ## Additional information :information_source:
-
-[I wanna contribute](https://github.com/mashood100/dart_extend)
+For more info or contribution please visit
+[Dart Extend Repo](https://github.com/mashood100/dart_extend)
 
