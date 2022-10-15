@@ -11,39 +11,31 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
 
-## Features
 
-### use the following dart method directly in your code and speed up your app development
+# About :closed_book:
 
-Validators
+#### Dart Extend provides a variety of dart methods and classes so you can write better and clean app functionality
+### Auther :octocat: 
+[ Mashood Hussain](https://github.com/mashood100)
 
-```dart
- .isNull //return bool check if the given value is null or not
- .isemail(); // return bool
- .isNum; //return bool check if the given string is numeric type or not
-```
 
-Formatters
+# Features :electric_plug:
 
-```dart
-.removeduplicates(); // remove duplicates from your list
- .ordinal();; // convert number into ordered form e.g 1st 2nd 55th 22th
- .isNum; //return bool check if the given string is numeric type or not
-```
+#### Dart Extend provides a variety of dart methods and classes so you can write better and clean app functionality
 
-converter
+### :warning: Validators
 
-From Epoch
+### :construction_worker: Formatters
 
-```dart
-    1665102617.epochToDate(); // return DateTime  like  2022-10-07 05:41:03.162
-    1665102617.epochToTime();// 5:30 AM
-   final date2 = DateTime(2011, 1, 15).weekOftheYearFromDate(); // 2nd week
+### :recycle: Converter
 
-   98.minToDuration(); // 1.6 hr
-```
+### :hourglass_flowing_sand: Time Stamps
 
-## Getting started
+### :slot_machine: Generator
+
+
+
+# Getting started :rocket:
 
 ## Validators
 
@@ -104,6 +96,10 @@ From DateTime
 ```
 
 ## Time Ago Stamps
+
+![Screenshot](images/ss1.png)
+![Screenshot2](images/ss2.png)
+
 
 From Epoch
 
@@ -188,9 +184,7 @@ Generate unique user names
   // ]
 ```
 
-![Screenshot](images/ss1.png)
-![Screenshot2](images/ss2.png)
+## Additional information :information_source:
 
-## Additional information
+[I wanna contribute](https://github.com/mashood100/dart_extend)
 
-For more info or contribution visit https://github.com/mashood100/dart_extend
