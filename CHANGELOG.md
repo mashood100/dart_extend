@@ -1,3 +1,7 @@
+## [0.0.5] - 10/14/2022
+
+- `Add more methods in Generator class`
+
 ## [0.0.4] - 10/14/2022
 
 - `Add new Generator class` Genrator class with many new methods
