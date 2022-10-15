@@ -11,29 +11,39 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
 
-# About :closed_book:
+## Features
 
-#### Dart Extend provides a variety of dart methods and classes so you can write better and clean app functionality
+### use the following dart method directly in your code and speed up your app development
 
-### Auther :octocat:
+Validators
 
-[ Mashood Hussain](https://github.com/mashood100)
+```dart
+ .isNull //return bool check if the given value is null or not
+ .isemail(); // return bool
+ .isNum; //return bool check if the given string is numeric type or not
+```
 
-# Features :electric_plug:
+Formatters
 
-#### Dart Extend provides a variety of dart methods and classes so you can write better and clean app functionality
+```dart
+.removeduplicates(); // remove duplicates from your list
+ .ordinal();; // convert number into ordered form e.g 1st 2nd 55th 22th
+ .isNum; //return bool check if the given string is numeric type or not
+```
 
-### :warning: Validators
+converter
 
-### :construction_worker: Formatters
+From Epoch
 
-### :recycle: Converter
+```dart
+    1665102617.epochToDate(); // return DateTime  like  2022-10-07 05:41:03.162
+    1665102617.epochToTime();// 5:30 AM
+   final date2 = DateTime(2011, 1, 15).weekOftheYearFromDate(); // 2nd week
 
-### :hourglass_flowing_sand: Time Stamps
+   98.minToDuration(); // 1.6 hr
+```
 
-### :slot_machine: Generator
-
-# Getting started :rocket:
+## Getting started
 
 ## Validators
 
@@ -95,9 +105,6 @@ From DateTime
 
 ## Time Ago Stamps
 
-![Screenshot](images/ss1.png)
-![Screenshot2](images/ss2.png)
-
 From Epoch
 
 ```dart
@@ -108,24 +115,6 @@ From DateTime
 
 ```dart
     String timeagoInString = 1665192814.timeAgoSinceEpochDate(dateInNumbers: false); // return 12 days ago
-
-```
-
-Generate Random Numbers and IDs
-
-```dart
-
-  var generate = Generator();
-  // genrate Random number between 2 values
-  print(generate.randomNumber(2, 9)); //5
-
-  // genrate alphanumeric key of length 44 character
-  // Ideal when you want to produce a large number of IDs.
-  print(generate
-      .createCryptoRandomString()); //KPVz7OIagov_hsn6Hs65XsvH-x43j0XyMNf6HrWMrcQ=
-
-  // another id genrator genrate alphanumeric key of length 44 character
-  print(generate.uniqueId().length);
 
 ```
 
@@ -199,7 +188,9 @@ Generate user names
   // ]
 ```
 
-## Additional information :information_source:
+![Screenshot](images/ss1.png)
+![Screenshot2](images/ss2.png)
 
-For more info or contribution please visit
-[Dart Extend Repo](https://github.com/mashood100/dart_extend)
+## Additional information
+
+For more info or contribution visit https://github.com/mashood100/dart_extend
