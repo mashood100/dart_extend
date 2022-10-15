@@ -10,7 +10,8 @@ For general information about developing packages, see the Dart guide for
 and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
-
+![Dart](https://img.shields.io/badge/Dart-2.18.2-0489fa?labelColor=blue&style=for-the-badge)
+![pub](https://img.shields.io/badge/pub-0.05-0489fa?labelColor=blue&style=for-the-badge)
 # About :closed_book:
 
 #### Dart Extend provides a variety of dart methods and classes so you can write better and clean app functionality
