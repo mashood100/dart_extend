@@ -25,6 +25,8 @@ class _MyAppState extends State<MyApp> {
           ),
           body: Column(
             children: [
+              Text(1000.toDecimalPattern()),
+              Text(11432.convertBytesToMemoryUnit()),
               Text(generator.createCryptoRandomString()),
               Text(generator.randomNumber(2, 9).toString())
             ],

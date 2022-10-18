@@ -1,5 +1,5 @@
 extension UnitConverstion on int? {
-  String convertToMemoryUnit() {
+  String convertBytesToMemoryUnit() {
     if (this == null) return "";
 
     if (this! >= 1073741824) {
