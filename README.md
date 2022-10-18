@@ -58,7 +58,9 @@ check string value is number or not
 
 ```dart
 // the method will convert any num type value in decimal pattern eg :22000 ===> 22,000
+
 1232123.233.toDecimalPattern() // 1,232,123
+// by default the valueAfterpoint is set to 0
 32123.123.toDecimalPattern(valueAfterpoint: 1) // 32,123.1
 
 ```
@@ -80,7 +82,7 @@ Remove Duplicates from List
 ## Conversations
 
 ```dart
-// convert bytes into memoryUnits
+// convert bytes into readable Memory Units 
 11432.convertBytesToMemoryUnit() // 11kb
 1142132.convertBytesToMemoryUnit() // 1.1 MB
 ```
