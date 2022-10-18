@@ -10,15 +10,15 @@ For general information about developing packages, see the Dart guide for
 and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
+
 ![Dart](https://img.shields.io/badge/Dart-2.18.2-0489fa?labelColor=blue&style=for-the-badge)
 ![pub](https://img.shields.io/badge/pub-0.05-0489fa?labelColor=blue&style=for-the-badge)
+
 # About :closed_book:
 
 #### Dart Extend provides a variety of dart methods and classes so you can write better and clean app functionality
 
-### Auther :octocat:
-
-[ Mashood Hussain](https://github.com/mashood100)
+### Publisher: [Mashood Hussain](https://github.com/mashood100)
 
 # Features :electric_plug:
 
@@ -46,7 +46,7 @@ final email = "mashood100".isemail(); // false
     bool isDouble = "122".isNum; // true
 ```
 
-check is string value is number or not
+check string value is number or not
 
 ```dart
 
@@ -150,11 +150,11 @@ Generate user names
   // mashood_Hussain_23
   print(generate.makeUserName('Mashood Hussain'));
   // mashoodHussain23
-// set with number false to make usernames with number
+  // set with number false to make usernames with number
   print(generate.makeUserName('John Doe', withNumber: false));
-// mashood_Hussain
+  // mashood_Hussain
 
-// you can also set prefix and sufffix so it will apperes on every username that you generates
+  // you can also set prefix and sufffix so it will apperes on every username that you generates
   print(generate.makeUserName('Mashood Hussain',
       withNumber: false, prefix: 'developer', suffix: 'fultter'));
   // developer_mashood_hussain_flutter
@@ -171,14 +171,10 @@ Generate user names
   );
   // doe_john_10_ready
 
-  print(
-    generate.usernameFromName(firstName: 'John', lastName: 'Doe'),
-  );
-  // doe_john_10
-//set isadjectives true to get a username with adjective word
-  print(
-    generate.listOfUserName('Mashood Hussain', length: 4, isadjectives: true),
-  );
+  print( generate.usernameFromName(firstName: 'Mashood', lastName: 'huss'), );
+  // mashood_huss_78
+  //set isadjectives true to get a username with adjective word
+  print( generate.listOfUserName('Mashood Hussain', length: 4, isadjectives: true) );
 
   // [
   // 4_mashood_awsome,
@@ -187,7 +183,7 @@ Generate user names
   // hussain_mashood_99
   // ]
 
-// by default isadjectives is false
+  // by default isadjectives is false
   print(
     generate.listOfUserName('Mashood Hussain', length: 4),
   );
