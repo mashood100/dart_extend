@@ -1,5 +1,5 @@
 
-## Tanmoy karmakar
+## Mashood Hussain
 
 - Place: Karachi, Pakistan
 - Bio: Flutter Dev at @Muftar US.
