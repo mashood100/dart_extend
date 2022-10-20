@@ -1,3 +1,34 @@
+
+
+### Wanna Contribute in *hacktoberfest 2022* 🙌
+
+### Follow Simple Rules
+
+**1) Fork this repository first**
+
+**2) Star this repository⭐**
+
+**3) Create a new issue detailing what you want to add and create a branch from the issue**
+
+**4) Add your details in the CONTRIBUTING.md file⭐**
+
+**5) Add a folder that define the UI you want to upload eg `amazon_ui` , `flipkart_ui`** and add your UI code to the folder and create a **PULL REQUEST**.
+
+# Some Code Guidelines
+
+1. Variable name should be meaningful.
+2. Use comments in your code.
+3. Your Code must be pretty formated.
+
+### After a valid pull request your code will be carefully reviewed and if it matches the rule then it will be accepted otherwise you need to generate a new file
+
+
+
+
+
+
+
+
 <!--
 This README describes the package. If you publish this package to pub.dev,
 this README's contents appear on the landing page for your package.
