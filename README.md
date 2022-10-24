@@ -12,7 +12,7 @@
 
 **4) Add your details in the CONTRIBUTING.md file⭐**
 
-**5) Add a folder that define the UI you want to upload eg `amazon_ui` , `flipkart_ui`** and add your UI code to the folder and create a **PULL REQUEST**.
+**5) Add a folder that define the class or method you want to upload and add your code to the folder and create a **PULL REQUEST**.
 
 # Some Code Guidelines
 
