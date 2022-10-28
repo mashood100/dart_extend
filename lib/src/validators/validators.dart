@@ -6,6 +6,13 @@ extension StringValidators on String {
       return false;
     }
   }
+  bool isFullName() {
+    if (RegExp("^[a-zA-Z]+ [a-zA-Z]+").hasMatch(this)) {
+      return true;
+    } else {
+      return false;
+    }
+  }
 
   bool get isNum => num.tryParse(this) != null ? true : false;
 }
