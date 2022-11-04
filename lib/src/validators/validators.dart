@@ -6,7 +6,6 @@ extension StringValidators on String {
       return false;
     }
   }
-
   bool get isNum => num.tryParse(this) != null ? true : false;
 }
 

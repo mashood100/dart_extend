@@ -16262,5 +16262,13 @@ const adjectives = [
   'ill-fitting',
   'scaly',
   'unpainted',
-  'eroding'
+  'eroding',
+  'unfounded',
+  'unfettered',
+  'unfashioned',
+  'unfailing',
+  'unfaithful',
+  'unfamiliar',
+  'unfathomable',
+
 ];
