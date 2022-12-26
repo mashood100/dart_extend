@@ -1,6 +1,6 @@
 name: dart_extend
 description: Dart Extend provides a variety of dart methods and classes so you can write better and clean app functionality
-version: 1.0.1
+version: 1.0.4
 homepage: "https://github.com/mashood100/dart_extend"
 
 environment:
